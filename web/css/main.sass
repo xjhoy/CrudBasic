@@ -1,0 +1,120 @@
+$primary: #303F9F
+$light-primary: #BBDEFB
+$white: #f2f2f2
+$divider: #B6B6B6
+$error: #D32F2F
+$color-header: #F35E75
+$color-insertar: #00C5A6
+$color-mostrar: #95D9C9
+$color-editar: #F1B2A1
+$color-borrar: #F36F5E
+
+$borde: 2px
+$font-family: "Roboto", Arial
+$font-header: 'Rochester', cursive
+$font-session: 'Lobster', cursive
+
+
+body
+  margin: 0px
+  background-color: $white
+  font-family: $font-family
+
+.contenedor
+  width: 90%
+  padding: 15px
+  margin: auto
+  header
+    font-size: 7em
+    font-family: $font-header
+    text-align: center
+    color: white
+    text-shadow: 1px 1px 2px $color-header
+    img
+      position: absolute
+      left: 0px
+      top: 0px
+      z-index: -1
+      width: 100%
+      height: 40%
+      overflow: hidden
+  a
+    color: inherit
+    text-decoration: none
+    -webkit-transition: all .3s ease
+    -o-transition: all .3s ease
+    transition: all .3s ease
+  .frame-crud
+    background-color: white
+    box-shadow: 1px 1px 5px grey
+    display: inline-block
+    border-radius: 3px
+    width: 25%
+    height: 180px
+    padding: 15px
+    margin: 20px
+    text-align: center
+    overflow: hidden
+    #icon-insertar
+      background-color: $color-insertar
+    #icon-mostrar
+      background-color: $color-mostrar
+    #icon-editar
+      background-color: $color-editar
+    #icon-borrar
+      background-color: $color-borrar
+    .icono-redondo
+      width: 100px
+      height: 100px
+      display: inline-block
+      max-width: 60%
+      max-height: 60%
+      margin: auto
+      border-radius: 50%
+      -moz-border-radius: 50%
+      -webkit-border-radius: 50%
+      -khtml-border-radius: 50%
+      overflow: hidden
+      span
+        font-size: 3em
+        top: 20%
+        vertical-align: middle
+        color: white
+    h2
+      padding: 0px
+      margin-top: 10px
+      margin-bottom: 0px
+      font-family: $font-session
+      font-size: 2em
+      text-shadow: 1px 1px 0px #e1e1e1
+    h2[id="insertar"]
+      color: $color-insertar
+      &:hover
+        font-size: 3em
+    h2[id="mostrar"]
+      color: $color-mostrar
+      &:hover
+        font-size: 3em
+    h2[id="editar"]
+      color: $color-editar
+      &:hover
+        font-size: 3em
+    h2[id="borrar"]
+      color: $color-borrar
+      &:hover
+        font-size: 3em
+
+
+footer
+  margin-top: 50px
+  margin-left: 0px
+  margin-right: 0px
+  padding: 25px
+  background-color: $primary
+  height: 100px
+  max-width: 100%
+  text-align: left
+  color: $white
+  border-top-right-radius: 2em
+  border-top-left-radius: 2em
+
