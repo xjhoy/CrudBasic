@@ -23,15 +23,14 @@
     <div class="contenedor">
 
         <header>
-            <img src="img/xjFondo004.jpg" alt="">
+            <img src="img/xjFondo005.jpg" alt="">
             Crud Basico
         </header>
-
         <div class="frame-crud">
             <div class="icono-redondo" id="icon-insertar">
                 <span class="oi oi-plus"></span>
             </div>
-            <h2 id="insertar"><a href="#">Insertar</a></h2>
+            <h2 id="insertar"><a href="insertar.jsp">Insertar</a></h2>
         </div>
 
         <div class="frame-crud">

@@ -87,6 +87,45 @@ body {
       .contenedor .frame-crud h2[id="borrar"]:hover {
         font-size: 3em; }
 
+.formulario {
+  width: 60%;
+  margin: auto;
+  font-family: "Lobster", cursive;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 1px 1px 1px grey;
+  padding: 15px; }
+  .formulario h2 {
+    text-align: center;
+    font-size: 3em; }
+  .formulario .input-group {
+    margin: 30px; }
+    .formulario .input-group label {
+      font-size: 2em; }
+    .formulario .input-group input {
+      width: 100%;
+      outline: none;
+      border: none;
+      border-bottom: 2px solid #BBDEFB;
+      margin: 15px;
+      display: block; }
+    .formulario .input-group input[type="submit"] {
+      margin: auto;
+      font-family: "Rochester", cursive;
+      font-size: 35px;
+      color: white;
+      width: 30%;
+      padding: 10px;
+      background-color: #00C5A6;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+      .formulario .input-group input[type="submit"]:hover {
+        width: 40%; }
+
 footer {
   margin-top: 50px;
   margin-left: 0px;
